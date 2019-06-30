@@ -2,7 +2,18 @@
 
 Este preset tiene por finalidad ayudar a la edición de Museos, Galerías, Archivos, Bibliotecas y Patrimonio con la adición de cementerios.
 
-==Particularidades==
+## Particularidades
 
-* En la versión 0.0.7 solo el set de museos está desarrollado al 90% a prueba de concepto
-* 
+* En la versión 0.0.7 solo el <group name="Museos"> desarrollado al @90%, como prueba de concepto
+*
+
+
+## Roadmap
+
+* Feedback dentro de la comunidad Local
+* Revisiones
+* Internacionalizar las etiquetas
+* Publicarlo en: https://josm.openstreetmap.de/wiki/Presets#PublishanewAvailablepresetsitem
+* Feedback
+
+### Muchas gracias por usarlo y compartir tus opiniones o tu código
