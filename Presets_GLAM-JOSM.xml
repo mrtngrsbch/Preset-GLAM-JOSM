@@ -179,6 +179,7 @@ Tagging Presets :
 				display_values="2,4,5,6,7,8,9"
 				es.display_values="2,4,5,6,7,8,9 "/>
 				<label text="--> tips: "/>
+				<label text="  1 = UNESCO "/>
 				<label text="  2 = Nacional "/>
 				<label text="  4 = Province/CABA "/>
 				<label text="  5 = Departamento/partido "/>
