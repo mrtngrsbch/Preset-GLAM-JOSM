@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 		  author="martingggg"
-		  version="0.9.7 - 2019-05-31"
+		  version="0.0.7 - 2019-05-31"
 		  shortdescription="Presets for GLAM (Musums, Galleries, Archives, Libraries and Heritage)"
 		  es.shortdescription="Preset para GLAM (Museos, Galerías, Archivos, Bibiotecas y Patrimonio)"
 		  description="Presets from Museos Abiertos (www.museosabiertos.org)"
