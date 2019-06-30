@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+		  author="martingggg"
+		  version="0.9.7 - 2019-05-31"
+		  shortdescription="Presets for GLAM (Musums, Galleries, Archives, Libraries and Heritage)"
+		  es.shortdescription="Preset para GLAM (Museos, Galerías, Archivos, Bibiotecas y Patrimonio)"
+		  description="Presets from Museos Abiertos (www.museosabiertos.org)"
+		  es.description="Presets GLAM de Museos Abiertos (www.museosabiertos.org)"
+			link="https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM/"
+			icon="https://www.museosabiertos.org/osm/logo-MA-color-80.png"
+      baselanguage="es"
+			>
+
+<!--
+Links utiles
+	http://www.sjjb.co.uk/mapicons/contactsheet
+	http://osm-icons.org/wiki/Main_Page
+	http://docs.inasafe.org/en/training/old-training/intermediate/osm/304-creating-josm-file-presets.html
+
+Tagging Presets :
+	https://josm.openstreetmap.de/wiki/TaggingPresets
+-->
+
+
+<!-- ✻ ✻ ✻ ✻ ✻  M U S E O S ✻ ✻ ✻ ✻ ✻ -->
+
+<group name="Museos"
+	icon="https://www.museosabiertos.org/osm/logo-MA-color-80.png"
+	es.name="Museos Abiertos (Argentina)">
+
+<item name="Museos de Argentina"
+		icon="http://www.sjjb.co.uk/mapicons/png/tourist_museum.glow.32.png"
+		es.name="Museo"
+		preset_name_label="true" >
+
+	<label text="[ ETIQUETAS PRINCIPALES ] "/>
+			<text key="tourism" text="Tourism" default="museum" value="museum" />
+				<combo key="building"
+					text="Building"
+					es.text="Edificio"
+					values="yes,no,"
+					display_values="yes,no,"
+					es.display_values="Si, No, "/>
+
+			<text key="name" text="Name" es.text="Nombre" />
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ NOMBRE ]"/>
+			<text key="short_name" text="Short Name" es.text="Nombre corto" />
+			<text key="official_name" text="Official Name" es.text="Nombre oficial" />
+			<text key="alt_name" text="Alternative Name" es.text="Nombre alternativo" />
+			<text key="old_name" text="Old Name" es.text="Nombre viejo" />
+			<text key="wikimedia_commons" text="Image" es.text="Page Wikimedia Commons" />
+				<label text="--> nota: Page de la imagen de Wikimedia Commons. ej: 'File:Cabildo_de_bs_as.jpg'"/>
+				<space/>
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ DIRECCION ]"/>
+		<text key="addr:street" text="Calle, avenida, pasaje" />
+		<text key="addr:housenumber" text="Housenumber" es.text="Número" />
+		<text key="addr:city" text="Ciudad" />
+		<text key="addr:province" text="Province" es.text="Provincia" />
+			<label text="--> tip: dejar vacío para CABA"/>
+			<space/>
+		<text key="addr:postcode" text="Postcode" es.text="Código postal (preferentemente CPA)" />
+			<label text="--> tip: preferentemente usar formato CPA. ej: 'C1147AAO'"/>
+			<space/>
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ AMENITIES ]"/>
+		<combo key="internet_access"
+			text="Internet access"
+			es.text="Acceso a internet"
+			values="wlan,yes,no"
+			display_values="wlan,yes,no"
+			es.display_values="Red, Si, No" />
+		<combo key="wheelchair"
+				text="wheelchair"
+				es.text="Acceso con sillas de ruedas"
+				values="yes,no,limited"
+				display_values="yes,no,limited"
+				es.display_values="Si, No,limitado "/>
+		<combo key="fee"
+				text="Fee"
+				es.text="Acceso pago"
+				values="yes,no,"
+				display_values="yes,no,"
+				es.display_values="Si, No, "/>
+		<text key="level" text="Level" es.text="Nivel de acceso (ej. level=0 planta baja)"/>
+		<text key="building:levels" text="Building levels" es.text="Pisos del edificio (ej. building:levels=3)"/>
+
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ CONTACTO ]"/>
+			<text key="phone" text="Phone" es.text="Teléfono"/>
+				<label text="--> tip: usar formato : +54 11 1111-1111"/>
+				<space/>
+			<text key="email" text="Email" es.text="Email" />
+			<text key="website" text="website" es.text="Sitio web" />
+
+			<label text="__________________________________________________"/>
+			<space/>
+
+	<label text="[ ETIQUETAS RECOMENDADAS ]"/>
+		<combo key="museum"
+			text="museum"
+			es.text="Museo de..."
+			values="railway,art,history,science,local,nature,technology,transport,living_history,military,children,archaeological,etnographic,war,agriculture,aviation,maritime"
+			display_values="railway,art,history,science,local,nature,technology,transport,living_history,military,children,archaeological,etnographic,war,agriculture,aviation,maritime"
+			es.display_values="Trenes, Arte, Histórico, Local, Ciencia, Naturaleza, Tecnología, Transporte, Historia viva, Militar, Niños, Arqueológico, Etnográfico, Guerra, Agricultura, Aviación, Marítimo"/>
+		<combo key="museum_type"
+			text="museum_type"
+			es.text="Tipo de museo"
+			values="municipal,departamental,national,private,public,institutional"
+			display_values="municipal,departamental,national,private,public,institutional"
+			es.display_values="Municipal, Provincial, Nacional, Privado, Público, Institucional"/>
+		<text key="description" text="Description" es.text="Descripción" />
+			<label text="--> tip: máximo 255 caracteres"/>
+		<text key="opening_hours" text="Opening hours" es.text="Horario de apertura" />
+			<label text="--> tip: respetar formato. ej: '	Tu-Fr 11:00-20:00; Sa-Su 10:00-20:00; PH 12:00-19:00'"/>
+  	<text key="start_date" text="Year of construction" es.text="Fecha de construcción" />
+			<label text="--> tip: respetar formato. ej: '1896-12-25'"/>
+		<text key="operator" text="Operator" es.text="Operador" />
+
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ DATOS RELACIONADOS ]"/>
+		<text key="wikidata" text="Wikidata" es.text="Wikidata"/>
+			<label text="--> tip: ej: 'Q1848918'"/>
+		<text key="wikipedia" text="Wikipedia" es.text="Wikipedia"/>
+				<label text="--> tip: ej: 'es:Museo Nacional de Bellas Artes (Argentina)'"/>
+  	<text key="source" text="Source" es.text="Fuente"/>
+
+	<label text="__________________________________________________"/>
+		<space/>
+
+		<label text="[ NOTAS ]"/>
+		<text key="fixme" text="Fixme" es.text="Fixme (arréglame) "/>
+			<label text="--> tip: aquí puedes dejar una nota para los editores. Máximo 255 caracteres
+				ej: 'no se si realmente es un museo de arte.'"/>
+
+		<space/>
+
+		<link href="https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM/Museos"/>
+	</item>
+
+	<separator/>
+
+
+
+
+<!-- ✻ ✻ ✻ ✻ ✻  P A T R I M O N I O ✻ ✻ ✻ ✻ ✻ -->
+
+<item name="Heritage"
+	icon="http://www.sjjb.co.uk/mapicons/png/tourist_ruin.glow.32.png"
+				es.name="Patrimonio"
+				preset_name_label="true" >
+
+	<label text="[ ETIQUETAS PRINCIPALES ] "/>
+		<text key="name" text="Name" />
+		<text key="name:en" text="Nombre EN" es.text="Nombre EN" />
+		<text key="name:fr" text="Nombre FR" fr.text="Nombre FR" />
+		<combo key="historic"
+				text="Historic"
+				es.text="Histórico"
+				values="archaeological_site, building, church, memorial, monument, yes"
+				display_values="archaeological_site, building, church, memorial, monument, yes"
+				es.display_values="sitio arqueológico, edificio, iglesia, memorial, monumento, si"/>
+		<combo key="heritage"
+				text="heritage"
+				es.text="Patrimonio"
+				values="2,4,5,6,7,8,9"
+				display_values="2,4,5,6,7,8,9"
+				es.display_values="2,4,5,6,7,8,9 "/>
+				<label text="--> tips: "/>
+				<label text="  2 = Nacional "/>
+				<label text="  4 = Province/CABA "/>
+				<label text="  5 = Departamento/partido "/>
+				<label text="  6 = Distrito (Mendoza Province, Entre Ríos Province), Pedanías (Córdoba Province) "/>
+				<label text="  7 = Municipio (except for Buenos Aires Province, Mendoza, La Rioja and San Juan, where municipio is the same as departmento or partido) "/>
+				<label text="  8 = Villages, City, town "/>
+				<label text="  9 = Barrio "/>
+		<label text="__________________________________________________"/>
+		<space/>
+
+		<combo key="building"
+				text="Building"
+				es.text="Edificio"
+				values="yes,no,"
+				display_values="yes,no,"
+				es.display_values="Si, No, "/>
+		<text key="architect"	text="Architect" es.text="Arquitecto"/>
+		<text key="architect:wikidata"	text="Architect wikidata" es.text="Arquitecto wikidata"/>
+		<text key="architect:wikipedia"	text="Architect wikipedia" es.text="Arquitecto wikipedia"/>
+		<text key="start_date" text="Year of construction" es.text="Fecha de construcción" />
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ NOMBRE ]"/>
+		<text key="official_name" text="Official Name" es.text="Nombre oficial" />
+		<text key="alt_name" text="Alternative Name" es.text="Nombre alternativo" />
+		<text key="old_name" text="Old Name" es.text="Nombre viejo" />
+		<text key="wikimedia_commons" text="Image" es.text="Imagen" />
+				<label text="--> tip: imagen de Wikimedia Commons. ej: 'File:MNBA fachada.jpg'"/>
+				<space/>
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ DIRECCION ]"/>
+		<text key="addr:street" text="Calle, avenida, pasaje" />
+		<text key="addr:housenumber" text="Housenumber" es.text="Número" />
+		<text key="addr:city" text="Ciudad" />
+		<text key="addr:province" text="Province" es.text="Provincia" />
+			<label text="--> tip: dejar vacío para CABA"/>
+			<space/>
+		<text key="addr:postcode" text="Postcode" es.text="Código postal (preferentemente CPA)" />
+			<label text="--> tip: preferentemente usar formato CPA. ej: 'C1147AAO'"/>
+			<space/>
+		<label text="__________________________________________________"/>
+		<space/>
+
+	<label text="[ DATOS RELACIONADOS ]"/>
+		<text key="wikidata" text="Wikidata" es.text="Wikidata"/>
+			<label text="--> tip: ej: 'Q1848918'"/>
+		<text key="wikipedia" text="Wikipedia" es.text="Wikipedia"/>
+			<label text="--> tip: ej: 'es:Museo Nacional de Bellas Artes (Argentina)'"/>  	<text key="source" text="Source" es.text="Fuente"/>
+
+		<label text="__________________________________________________"/>
+		<space/>
+
+		<label text="[ CONTACTO ]"/>
+				<text key="phone" text="Phone" es.text="Teléfono"/>
+					<label text="--> tip: usar formato : +54 11 1111-1111"/>
+					<space/>
+				<text key="email" text="Email" es.text="Email" />
+				<text key="website" text="website" es.text="Sitio web" />
+
+				<label text="__________________________________________________"/>
+				<space/>
+
+		<space/>
+		<link href="https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM/Patrimonio"/>
+
+</item>
+
+<separator/>
+
+
+
+<!-- ✻ ✻ ✻ ✻ ✻  C E M E N T E R I O S ✻ ✻ ✻ ✻ ✻ -->
+
+	<item name="Cementerios"
+		icon="http://www.sjjb.co.uk/mapicons/png/tourist_memorial.glow.32.png"
+				es.name="Cementerios"
+				preset_name_label="true" >
+
+				<combo key="heritage"
+						text="heritage"
+						es.text="Patrimonio"
+						values="4,5,6,7,8,9"
+						display_values="4,5,6,7,8,9"
+						es.display_values="4,5,6,7,8,9 "/>
+				<text key="architect"	text="Architect" es.text="Arquitecto"/>
+
+				<space/>
+				<link href="https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM/Patrimonio"/>
+
+	</item>
+
+
+<separator/>
+
+	<item name="Monumentos"
+		icon="http://www.sjjb.co.uk/mapicons/png/tourist_monument.glow.32.png"
+				es.name="Monumentos"
+				preset_name_label="true" >
+		<label text="en desarrollo..."/>
+	</item>
+
+<separator/>
+
+	<item name="Galerías de Argentina"
+		icon="http://www.sjjb.co.uk/mapicons/png/tourist_art_gallery2.glow.32.png"
+		es.name="Galerías"
+		preset_name_label="true" >
+		<label text="en desarrollo..."/>
+	</item>
+
+<separator/>
+
+	<item name="Bibiotecas de Argentina"
+		icon="http://www.sjjb.co.uk/mapicons/png/amenity_library2.glow.32.png"
+				es.name="Bibiotecas"
+				preset_name_label="true" >
+		<label text="en desarrollo..."/>
+	</item>
+
+<separator/>
+
+	<item name="Archivos de Argentina"
+		icon="http://www.sjjb.co.uk/mapicons/png/amenity_library.glow.32.png"
+				es.name="Archivos"
+				preset_name_label="true" >
+		<label text="en desarrollo..."/>
+
+	</item>
+
+</group>
+
+</presets>
