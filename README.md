@@ -16,8 +16,6 @@ Este preset tiene por finalidad ayudar a la edición de Museos, Galerías, Archi
 * Publicarlo en: https://josm.openstreetmap.de/wiki/Presets#PublishanewAvailablepresetsitem
 * Feedback
 
-### Muchas gracias por usarlo y compartir tus opiniones o tu código
-
 
 ### Documentación
 
@@ -26,3 +24,6 @@ https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM
 ### Grupo OSM GLAM en Telegram
 
 http://bit.ly/2XdTEjl
+
+
+#### Muchas gracias por usarlo y compartir tus opiniones o tu código
