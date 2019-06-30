@@ -1,0 +1,1 @@
+# Preset GLAM JOSM
