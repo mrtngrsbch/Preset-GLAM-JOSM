@@ -5,8 +5,7 @@ Este preset tiene por finalidad ayudar a la edición de Museos, Galerías, Archi
 ## Particularidades
 
 * En la versión 0.0.7 solo el <group name="Museos"> desarrollado al @90%, como prueba de concepto
-*
-
+* Lo logo de Museos Abiertos es momentáneo hasta subir el final
 
 ## Roadmap
 
