@@ -122,7 +122,7 @@ Tagging Presets :
 		<text key="description" text="Description" es.text="Descripción" />
 			<label text="--> tip: máximo 255 caracteres"/>
 		<text key="opening_hours" text="Opening hours" es.text="Horario de apertura" />
-			<label text="--> tip: respetar formato. ej: '	Tu-Fr 11:00-20:00; Sa-Su 10:00-20:00; PH 12:00-19:00'"/>
+			<label text="--> tip: respetar formato. ej: '	Tu-Fr 11:00-20:00; Sa-Su 10:00-20:00; PH 10:00-12:00,12:30-15:00	'"/>
   	<text key="start_date" text="Year of construction" es.text="Fecha de construcción" />
 			<label text="--> tip: respetar formato. ej: '1896-12-25'"/>
 		<text key="operator" text="Operator" es.text="Operador" />
