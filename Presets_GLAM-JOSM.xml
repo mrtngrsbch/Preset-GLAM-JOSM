@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 		  author="martingggg"
 			contact="mg.museosabiertos.org"
-		  version="0.0.7 - 2019-05-31"
+		  version="0.0.8 - 2019-08-10"
 		  shortdescription="Presets for GLAM (Musums, Galleries, Archives, Libraries and Heritage)"
 		  es.shortdescription="Preset para GLAM (Museos, Galerías, Archivos, Bibiotecas y Patrimonio)"
 		  description="Presets GLAM for JOSM "
@@ -200,6 +200,8 @@ Tagging Presets :
 		<text key="architect:wikidata"	text="Architect wikidata" es.text="Arquitecto wikidata"/>
 		<text key="architect:wikipedia"	text="Architect wikipedia" es.text="Arquitecto wikipedia"/>
 		<text key="start_date" text="Year of construction" es.text="Fecha de construcción" />
+		<text key="end_date" text="Year of demolition" es.text="Fecha de fin" />
+		<text key="demolished:building" text="Demolisher:building" es.text="Demolido:edificio" />
 		<label text="__________________________________________________"/>
 		<space/>
 
@@ -244,6 +246,14 @@ Tagging Presets :
 
 				<label text="__________________________________________________"/>
 				<space/>
+
+		<label text="[ NOTAS / FIXME ]"/>
+				<text key="note" text="Note" es.text="Nota" />
+				<text key="fixme" text="Fixme" es.text="Arréglame" />
+
+				<label text="__________________________________________________"/>
+				<space/>
+
 
 		<space/>
 		<link href="https://wiki.openstreetmap.org/wiki/ES:Wikiproyecto_Argentina/Cultura/GLAM/Patrimonio"/>
