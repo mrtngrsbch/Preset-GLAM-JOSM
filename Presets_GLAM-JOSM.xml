@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 		  author="martingggg"
 			contact="mg.museosabiertos.org"
-		  version="0.0.8 - 2019-08-10"
+		  version="0.0.9 - 2019-08-17"
 		  shortdescription="Presets for GLAM (Musums, Galleries, Archives, Libraries and Heritage)"
 		  es.shortdescription="Preset para GLAM (Museos, Galerías, Archivos, Bibiotecas y Patrimonio)"
 		  description="Presets GLAM for JOSM "
@@ -232,7 +232,9 @@ Tagging Presets :
 		<text key="wikidata" text="Wikidata" es.text="Wikidata"/>
 			<label text="--> tip: ej: 'Q1848918'"/>
 		<text key="wikipedia" text="Wikipedia" es.text="Wikipedia"/>
-			<label text="--> tip: ej: 'es:Museo Nacional de Bellas Artes (Argentina)'"/>  	<text key="source" text="Source" es.text="Fuente"/>
+			<label text="--> tip: ej: 'es:Museo Nacional de Bellas Artes (Argentina)'"/>
+		<text key="source" text="Source" es.text="Fuente"/>
+		<text key="URL" text="URL" es.text="URL"/>
 
 		<label text="__________________________________________________"/>
 		<space/>
@@ -250,7 +252,6 @@ Tagging Presets :
 		<label text="[ NOTAS / FIXME ]"/>
 				<text key="note" text="Note" es.text="Nota" />
 				<text key="fixme" text="Fixme" es.text="Arréglame" />
-
 				<label text="__________________________________________________"/>
 				<space/>
 
