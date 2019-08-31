@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 		  author="martingggg"
 			contact="mg.museosabiertos.org"
-		  version="0.[[revision]]_[[date]]"
+			version="0.1.0_2019-08-31"
 			shortdescription="GLAM"
 		  es.shortdescription="GLAM"
 		  description="Presets GLAM for Museums, Galleries, Archives, Libraries and Heritage"
