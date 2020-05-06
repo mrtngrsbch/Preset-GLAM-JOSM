@@ -8,7 +8,7 @@
 		  description="Presets GLAM for Museums, Galleries, Archives, Libraries and Heritage"
 		  es.description="Presets GLAM para Museos, Galerías, Archivos, Bibliotecas y Patrimonio"
 			link="https://github.com/mrtngrsbch/Preset-GLAM-JOSM"
-			icon="https://www.museosabiertos.org/osm/logo-MA-color-80.png"
+			icon="https://raw.githubusercontent.com/mrtngrsbch/Preset-GLAM-JOSM/master/logo-MA-color-80.png"
       baselanguage="es"
 			>
 
@@ -26,7 +26,7 @@ Tagging Presets :
 <!-- ✻ ✻ ✻ ✻ ✻  M U S E O S ✻ ✻ ✻ ✻ ✻ -->
 
 <group name="Museos"
-	icon="https://www.museosabiertos.org/osm/logo-MA-color-80.png"
+	icon="https://raw.githubusercontent.com/mrtngrsbch/Preset-GLAM-JOSM/master/logo-MA-color-80.png"
 	es.name="Museos Abiertos (Argentina)">
 
 <item name="Museos de Argentina"
