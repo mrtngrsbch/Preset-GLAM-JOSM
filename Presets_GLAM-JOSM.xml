@@ -234,7 +234,7 @@ Tagging Presets :
 		<text key="wikipedia" text="Wikipedia" es.text="Wikipedia"/>
 			<label text="--> tip: ej: 'es:Museo Nacional de Bellas Artes (Argentina)'"/>
 		<text key="source" text="Source" es.text="Fuente"/>
-		<text key="URL" text="URL" es.text="URL"/>
+		<text key="url" text="URL" es.text="URL"/>
 
 		<label text="__________________________________________________"/>
 		<space/>
